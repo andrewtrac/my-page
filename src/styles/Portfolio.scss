@@ -1,0 +1,20 @@
+.Portfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 600px;
+  background-color: black;
+ 
+}
+
+
+.Portfolio .Portfolio__tweeter{
+  width: 280px;
+  height: 280px;
+  background-image: url("../tweeter.png");
+  filter: grayscale(80%) blur(5px);
+}
+
+

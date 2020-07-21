@@ -5,4 +5,20 @@
   color: white;
   font-family: 'Oranienbaum', serif;
   font-size: 26px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .links {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .name {
+    margin-left: 20px;
+  }
+
 }

@@ -10,15 +10,20 @@
   .Portfolio__block{
     width: 280px;
     height: 280px;
-    background-image: url("../tweeter.png");
-    filter: grayscale(80%) blur(5px);
+    filter: blur(5px);
+    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
   }
 
   .Portfolio__block:hover{
     filter: none;
-    transition:filter 0.3s
+    opacity: 1;
+    transition:filter 0.3s;
+    transition: opacity 0.3s;
   }
-  
+
  
 }
 

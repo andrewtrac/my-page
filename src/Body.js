@@ -12,11 +12,7 @@ const resetHeader = () => {
 }
 
 const updateportfolio = (portfolioInput) => {
-  if (portfolioInput === "tweeter") {
-    setPortfolio("tweeter")
-  } else if (portfolioInput === "mapbook") {
-    setPortfolio("mapbook")
-  }
+  setPortfolio(portfolioInput)
 }
 
   return (

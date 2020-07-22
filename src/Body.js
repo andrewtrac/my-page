@@ -4,7 +4,7 @@ import "./styles/Header.scss";
 import "./styles/Body.scss";
 import "./styles/Portfolio.scss"
 
-export default function Body() {
+export default function Body(props) {
 
 const [portfolio, setPortfolio] = useState("")
 const resetHeader = () => {

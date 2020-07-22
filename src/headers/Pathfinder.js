@@ -6,7 +6,6 @@ export default function Pathfinder(props) {
 
   return (
     <div className="Header__mapbook" onClick={onClick}>
-      <span>Pathfinder</span>
     </div>
   )
 

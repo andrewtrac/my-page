@@ -7,15 +7,16 @@
   height: 600px;
   background-color: black;
 
-  .Portfolio__tweeter{
+  .Portfolio__block{
     width: 280px;
     height: 280px;
     background-image: url("../tweeter.png");
     filter: grayscale(80%) blur(5px);
   }
 
-  .Portfolio__tweeter:hover{
+  .Portfolio__block:hover{
     filter: none;
+    transition:filter 0.3s
   }
   
  

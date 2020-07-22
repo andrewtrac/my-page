@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Portfolio from './Portfolio'
 import "./styles/Header.scss";
 import "./styles/Body.scss";
 import "./styles/Portfolio.scss"
@@ -6,22 +7,21 @@ import "./styles/Portfolio.scss"
 export default function Body() {
 
 const [portfolio, setPortfolio] = useState("")
+const resetHeader = () => {
+  setPortfolio("")
+}
 
-console.log(portfolio)
+const updateportfolio = (portfolioInput) => {
+  if (portfolioInput === "tweeter") {
+    setPortfolio("tweeter")
+  } else if (portfolioInput === "mapbook") {
+    setPortfolio("mapbook")
+  }
+}
 
   return (
     <div className="Body">
-
-    {portfolio === "tweeter" && <div className="Header__tweeter" onClick={e => setPortfolio("")}><span>Tweeter</span></div>}
-    {portfolio === "" &&  <div className="Header">
-      <span style={{fontSize: "60px"}}>Portfolio</span>
-    </div>}
-    <div className="Portfolio">
-      <div className="Portfolio__tweeter" onClick={e => setPortfolio("tweeter")}></div>
-      <div className="Portfolio__tweeter" onClick={e => setPortfolio("mapbook")}></div>
-      <div className="Portfolio__tweeter"></div>
-      <div className="Portfolio__tweeter"></div>
-    </div>
+      <Portfolio resetHeader={resetHeader} portfolio={portfolio} updateportfolio={updateportfolio} />
     </div>
   );
 }

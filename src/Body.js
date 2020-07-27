@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import Portfolio from './Portfolio'
+import About from './About'
 import "./styles/Header.scss";
 import "./styles/Body.scss";
 import "./styles/Portfolio.scss"
 
 export default function Body(props) {
+
+const { page } = props;
 
 const [portfolio, setPortfolio] = useState("")
 const resetHeader = () => {
@@ -17,7 +20,8 @@ const updateportfolio = (portfolioInput) => {
 
   return (
     <div className="Body">
-      <Portfolio resetHeader={resetHeader} portfolio={portfolio} updateportfolio={updateportfolio} />
-    </div>
+      { page === "Portfolio" && <Portfolio resetHeader={resetHeader} portfolio={portfolio} updateportfolio={updateportfolio} /> }
+      { page === "About" && <About /> }
+    </div> 
   );
 }

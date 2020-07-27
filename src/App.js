@@ -4,7 +4,7 @@ import Body from './Body'
 import './styles/App.scss';
 
 function App() {
-  const [page, setPage] = useState("portfolio")
+  const [page, setPage] = useState("Portfolio")
 
   const updatePage = (pageInput) => {
     setPage(pageInput)
@@ -12,8 +12,8 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar/>
-      <Body/>
+      <Navbar updatePage={updatePage}/>
+      <Body  page={page}/>
     </div>
   );
 }

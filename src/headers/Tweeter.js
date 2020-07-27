@@ -10,7 +10,6 @@ export default function Tweeter(props) {
         <img src={tweeter} className="Header__demo"></img>
       <div class="Header__info">
         <h1>Tweeter</h1>
-
         <p>Project info</p>
 
       </div>

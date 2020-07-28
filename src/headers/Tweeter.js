@@ -9,9 +9,8 @@ export default function Tweeter(props) {
     <div className="Header__tweeter" onClick={onClick}>
         <img src={tweeter} className="Header__demo"></img>
       <div class="Header__info">
-        <h1>Tweeter</h1>
+        <h2>Tweeter</h2>
         <p>Project info</p>
-
       </div>
     </div>
 

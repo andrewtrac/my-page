@@ -20,7 +20,7 @@ const updateportfolio = (portfolioInput) => {
 
   return (
     <div className="Body">
-      { page === "Portfolio" && <Portfolio resetHeader={resetHeader} portfolio={portfolio} updateportfolio={updateportfolio} /> }
+      { page === "Portfolio" && <Portfolio onClick={resetHeader} resetHeader={resetHeader} portfolio={portfolio} updateportfolio={updateportfolio} /> }
       { page === "About" && <About /> }
     </div> 
   );

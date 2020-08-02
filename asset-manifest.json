@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/my-page/static/css/main.5a921462.chunk.css",
-    "main.js": "/my-page/static/js/main.0e85da69.chunk.js",
-    "main.js.map": "/my-page/static/js/main.0e85da69.chunk.js.map",
+    "main.css": "/my-page/static/css/main.e5f6e842.chunk.css",
+    "main.js": "/my-page/static/js/main.59090266.chunk.js",
+    "main.js.map": "/my-page/static/js/main.59090266.chunk.js.map",
     "runtime-main.js": "/my-page/static/js/runtime-main.f78690be.js",
     "runtime-main.js.map": "/my-page/static/js/runtime-main.f78690be.js.map",
-    "static/js/2.7ef1640b.chunk.js": "/my-page/static/js/2.7ef1640b.chunk.js",
-    "static/js/2.7ef1640b.chunk.js.map": "/my-page/static/js/2.7ef1640b.chunk.js.map",
+    "static/js/2.adcb4726.chunk.js": "/my-page/static/js/2.adcb4726.chunk.js",
+    "static/js/2.adcb4726.chunk.js.map": "/my-page/static/js/2.adcb4726.chunk.js.map",
     "index.html": "/my-page/index.html",
-    "precache-manifest.b83fc6664651675306acdf5b61664a98.js": "/my-page/precache-manifest.b83fc6664651675306acdf5b61664a98.js",
+    "precache-manifest.77ad6d8357f93fe3a810fc753928c337.js": "/my-page/precache-manifest.77ad6d8357f93fe3a810fc753928c337.js",
     "service-worker.js": "/my-page/service-worker.js",
-    "static/css/main.5a921462.chunk.css.map": "/my-page/static/css/main.5a921462.chunk.css.map",
-    "static/js/2.7ef1640b.chunk.js.LICENSE.txt": "/my-page/static/js/2.7ef1640b.chunk.js.LICENSE.txt",
+    "static/css/main.e5f6e842.chunk.css.map": "/my-page/static/css/main.e5f6e842.chunk.css.map",
+    "static/js/2.adcb4726.chunk.js.LICENSE.txt": "/my-page/static/js/2.adcb4726.chunk.js.LICENSE.txt",
     "static/media/mapbook.png": "/my-page/static/media/mapbook.2dd77f17.png",
+    "static/media/mapbook.gif": "/my-page/static/media/mapbook.c6d9ab87.gif",
     "static/media/pathfinder.png": "/my-page/static/media/pathfinder.3519ca3f.png",
+    "static/media/pathfinder.gif": "/my-page/static/media/pathfinder.b8e37871.gif",
     "static/media/photo.png": "/my-page/static/media/photo.c76d37fa.png",
     "static/media/scheduler.png": "/my-page/static/media/scheduler.8162e269.png",
     "static/media/tinyapp.png": "/my-page/static/media/tinyapp.54af2b98.png",
@@ -22,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f78690be.js",
-    "static/js/2.7ef1640b.chunk.js",
-    "static/css/main.5a921462.chunk.css",
-    "static/js/main.0e85da69.chunk.js"
+    "static/js/2.adcb4726.chunk.js",
+    "static/css/main.e5f6e842.chunk.css",
+    "static/js/main.59090266.chunk.js"
   ]
 }

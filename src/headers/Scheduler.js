@@ -10,7 +10,7 @@ export default function Scheduler(props) {
         <img src={tweeter} className="Header__demo"></img>
       <div class="Header__info">
         <h2>Scheduler</h2>
-        <p>Project info</p>
+        <p>TBD</p>
       </div>
     </div>
 

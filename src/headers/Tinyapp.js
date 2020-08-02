@@ -9,8 +9,8 @@ export default function Tinyapp(props) {
     <div className="Header__tweeter" onClick={onClick}>
         <img src={tweeter} className="Header__demo"></img>
       <div class="Header__info">
-        <h2>Tweeter</h2>
-        <p>Project info</p>
+        <h2>Tinyapp</h2>
+        <p>TBD</p>
       </div>
     </div>
 

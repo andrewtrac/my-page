@@ -7,7 +7,7 @@ export default function Tweeter(props) {
   return (
     <div className="Header__tweeter" onClick={onClick}>
       <img src={tweeter} className="Header__demo"></img>
-      <div class="Header__info">
+      <div className="Header__info">
         <h3>Tweeter</h3>
         <p>
           Tweeter is a simple, single-page Twitter clone. The project has a

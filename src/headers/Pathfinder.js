@@ -7,7 +7,7 @@ export default function Pathfinder(props) {
   return (
     <div className="Header__tweeter" onClick={onClick}>
       <img src={pathfinder} className="Header__demo"></img>
-      <div class="Header__info">
+      <div className="Header__info">
         <h3>Pathfinder</h3>
         <p>
           Pathfinder is an interactive educational tool that visualizes popular

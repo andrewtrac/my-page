@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-page/static/css/main.e5f6e842.chunk.css",
-    "main.js": "/my-page/static/js/main.59090266.chunk.js",
-    "main.js.map": "/my-page/static/js/main.59090266.chunk.js.map",
+    "main.css": "/my-page/static/css/main.2d578e6e.chunk.css",
+    "main.js": "/my-page/static/js/main.10e2deaf.chunk.js",
+    "main.js.map": "/my-page/static/js/main.10e2deaf.chunk.js.map",
     "runtime-main.js": "/my-page/static/js/runtime-main.f78690be.js",
     "runtime-main.js.map": "/my-page/static/js/runtime-main.f78690be.js.map",
-    "static/js/2.adcb4726.chunk.js": "/my-page/static/js/2.adcb4726.chunk.js",
-    "static/js/2.adcb4726.chunk.js.map": "/my-page/static/js/2.adcb4726.chunk.js.map",
+    "static/js/2.b78418cc.chunk.js": "/my-page/static/js/2.b78418cc.chunk.js",
+    "static/js/2.b78418cc.chunk.js.map": "/my-page/static/js/2.b78418cc.chunk.js.map",
     "index.html": "/my-page/index.html",
-    "precache-manifest.77ad6d8357f93fe3a810fc753928c337.js": "/my-page/precache-manifest.77ad6d8357f93fe3a810fc753928c337.js",
+    "precache-manifest.3c9092ff1e8e3f3a31d4776cd8bd1fb9.js": "/my-page/precache-manifest.3c9092ff1e8e3f3a31d4776cd8bd1fb9.js",
     "service-worker.js": "/my-page/service-worker.js",
-    "static/css/main.e5f6e842.chunk.css.map": "/my-page/static/css/main.e5f6e842.chunk.css.map",
-    "static/js/2.adcb4726.chunk.js.LICENSE.txt": "/my-page/static/js/2.adcb4726.chunk.js.LICENSE.txt",
+    "static/css/main.2d578e6e.chunk.css.map": "/my-page/static/css/main.2d578e6e.chunk.css.map",
+    "static/js/2.b78418cc.chunk.js.LICENSE.txt": "/my-page/static/js/2.b78418cc.chunk.js.LICENSE.txt",
     "static/media/mapbook.png": "/my-page/static/media/mapbook.2dd77f17.png",
     "static/media/mapbook.gif": "/my-page/static/media/mapbook.c6d9ab87.gif",
     "static/media/pathfinder.png": "/my-page/static/media/pathfinder.3519ca3f.png",
@@ -19,13 +19,14 @@
     "static/media/photo.png": "/my-page/static/media/photo.c76d37fa.png",
     "static/media/scheduler.png": "/my-page/static/media/scheduler.8162e269.png",
     "static/media/tinyapp.png": "/my-page/static/media/tinyapp.54af2b98.png",
+    "static/media/tinyapp.gif": "/my-page/static/media/tinyapp.f7727cd5.gif",
     "static/media/tweeter.png": "/my-page/static/media/tweeter.9358a659.png",
     "static/media/tweeter.gif": "/my-page/static/media/tweeter.c911ff09.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.f78690be.js",
-    "static/js/2.adcb4726.chunk.js",
-    "static/css/main.e5f6e842.chunk.css",
-    "static/js/main.59090266.chunk.js"
+    "static/js/2.b78418cc.chunk.js",
+    "static/css/main.2d578e6e.chunk.css",
+    "static/js/main.10e2deaf.chunk.js"
   ]
 }

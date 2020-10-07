@@ -2,27 +2,54 @@ import React from "react";
 import photo from "./images/photo.png";
 import "./styles/About.scss";
 
-export default function About() {
+let classNames = require("classnames");
+
+
+export default function About(props) {
+
+  const { max769 } = props
+
+
+  let aboutClass = classNames({
+    About: !max769,
+    AboutSmall: max769,
+  });
+
+  let aboutPhotoPosition = classNames({
+    About__photo: !max769,
+    AboutSmall__photo: max769,
+  });
+
+  let aboutPhoto = classNames({
+    photo: !max769,
+    photo__small: max769,
+  });
+
+  let aboutInfo = classNames({
+    About__info: !max769,
+    AboutSmall__info: max769,
+  });
+
+
+
+
   return (
-    <div className="About">
-      <div className="About__photo">
+    <div className={aboutClass}>
         <img
-          className="photo"
+          className={aboutPhoto}
           src={photo}
           style={{ border: "solid 1px black" }}
         ></img>
-      </div>
 
-      <div className="About__info">
-        <span style={{ fontSize: "30px" }}>Hi. I'm Andrew.</span>
+      <div className={aboutInfo}>
+        <span style={ max769 ? { fontSize: "30px", textAlign: "center", width: "100%" } : { fontSize: "30px"}}>Hi. I'm Andrew.</span>
         <br></br>
         <p>
-          I'm a full stack developer that's experienced with a few different
-          languages and tools. Namely React.JS, Ruby on Rails, and HTML/CSS.
+          I'm a full stack developer. I've worked with a few languages and libraries, namely React.JS, Ruby on Rails, Node.JS, and HTML/CSS. I also have experience working with PostgreSQL and setting up RESTful APIs.
         </p>
         <p>
           Prior to becoming a developer, I spent 10 years working in the human
-          resources field across different industries and functions. I've got
+          resources industries. I got
           both a B.Com and an MBA from York University, and a Diploma from
           Lighthouse Labs.
         </p>

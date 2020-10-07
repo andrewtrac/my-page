@@ -5,13 +5,13 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemAvatar from "@material-ui/core/ListItemAvatar";
 import ListItemText from "@material-ui/core/ListItemText";
 import DialogTitle from "@material-ui/core/DialogTitle";
-import EmailIcon from '@material-ui/icons/Email';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import EmailIcon from "@material-ui/icons/Email";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import Avatar from "@material-ui/core/Avatar";
 
 export default function Contact(props) {
-  const { open, handleClose } = props;
+  const { open, handleClose, max769 } = props;
 
   return (
     <Dialog
@@ -21,29 +21,52 @@ export default function Contact(props) {
     >
       <DialogTitle id="simple-dialog-title">Contact Information</DialogTitle>
       <List>
-        <ListItem button onClick={e => window.location.href = "mailto:andrewtrac87@hotmail.com"}>
+        <ListItem
+          button
+          onClick={(e) =>
+            (window.location.href = "mailto:andrewtrac87@hotmail.com")
+          }
+        >
           <ListItemAvatar>
             <Avatar>
               <EmailIcon />
             </Avatar>
           </ListItemAvatar>
-          <ListItemText primary={"andrewtrac87@hotmail.com"} />
+          <ListItemText
+            disableTypography
+            style={max769 ? { fontSize: "14px" } : { fontSize: "16px" }}
+            primary={"andrewtrac87@hotmail.com"}
+          />
         </ListItem>
-        <ListItem button onClick={e => window.open("https://github.com/andrewtrac")}>
+        <ListItem
+          button
+          onClick={(e) => window.open("https://github.com/andrewtrac")}
+        >
           <ListItemAvatar>
             <Avatar>
               <GitHubIcon />
             </Avatar>
           </ListItemAvatar>
-          <ListItemText primary={"https://github.com/andrewtrac"} />
+          <ListItemText
+            disableTypography
+            style={max769 ? { fontSize: "14px" } : { fontSize: "16px" }}
+            primary={"https://github.com/andrewtrac"}
+          />
         </ListItem>
-        <ListItem button onClick={e => window.open("http://www.linkedin.com/in/andrew-trac")}>
+        <ListItem
+          button
+          onClick={(e) => window.open("http://www.linkedin.com/in/andrew-trac")}
+        >
           <ListItemAvatar>
             <Avatar>
               <LinkedInIcon />
             </Avatar>
           </ListItemAvatar>
-          <ListItemText primary={"http://www.linkedin.com/in/andrew-trac"} />
+          <ListItemText
+            disableTypography
+            style={max769 ? { fontSize: "14px" } : { fontSize: "16px" }}
+            primary={"http://www.linkedin.com/in/andrew-trac"}
+          />
         </ListItem>
       </List>
     </Dialog>

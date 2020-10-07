@@ -4,7 +4,7 @@ import "./styles/Navbar.scss";
 
 export default function Navbar(props) {
 
-  const { updatePage } = props
+  const { updatePage, max769 } = props
   const [open, setOpen] = useState(false)
 
   const handleClickOpen = () => {
@@ -27,7 +27,7 @@ export default function Navbar(props) {
         <span className="link" onClick={e => updatePage("Portfolio")}>Portfolio</span>
         <span className="link" onClick={e => window.open("https://resume.creddle.io/resume/dqqhnev3xgi")}>CV</span>
         <span className="link" onClick={e => handleClickOpen()}>Contact</span>
-        <Contact open={open} handleClose={handleClose}/>
+        <Contact max769={max769} open={open} handleClose={handleClose}/>
       </div>
     </div>
   );

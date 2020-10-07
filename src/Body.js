@@ -8,7 +8,7 @@ import "./styles/Portfolio.scss"
 
 export default function Body(props) {
 
-const { page } = props;
+const { page , max769 } = props;
 
 const [portfolio, setPortfolio] = useState("")
 const resetHeader = () => {
@@ -21,8 +21,8 @@ const updateportfolio = (portfolioInput) => {
 
   return (
     <div className="Body">
-      { page === "Portfolio" && <Portfolio onClick={resetHeader} resetHeader={resetHeader} portfolio={portfolio} updateportfolio={updateportfolio} /> }
-      { page === "About" && <About /> }
+      { page === "Portfolio" && <Portfolio max769={max769} onClick={resetHeader} resetHeader={resetHeader} portfolio={portfolio} updateportfolio={updateportfolio} /> }
+      { page === "About" && <About max769={max769} /> }
     </div> 
   );
 }
